@@ -1,2 +1,2 @@
-# algorithms
-Practice with algorithms on Python. 
+# algorithms and data structures
+Practice with algorithms and data structures on Python. 
