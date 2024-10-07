@@ -32,7 +32,7 @@ def merge(lst, left, middle, right):
 
 def merge_sort(lst, left, right):
     if left < right:
-        middle = (left + right) // 2
+        middle = left + (right - left) // 2
         merge_sort(lst, left, middle)
         merge_sort(lst, middle + 1, right)
         merge(lst, left, middle, right)
